@@ -100,7 +100,6 @@ def url_scan(url):
             ip = line['ip']
             print(ip, '-',f'AS{asn_value}', '-',f'({org_name})')
 
-        # print(f'Org:              {asn_name}')
         print(f'\nEffectiveURL:     {effective_url}')
         print(f'Screenshot:       {screenshot}\n')
 
