@@ -7,7 +7,7 @@ import time
 from tqdm import tqdm
 
 parser = argparse.ArgumentParser(
-    description='This utility performs a GET request to arin.net to perform queries on IP addresses and returns the output to the terminal.'
+    description='This utility submits a URL to urlscan.io and posts the results to the terminal.'
 )
 
 # Required arguments
