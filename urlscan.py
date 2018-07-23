@@ -45,8 +45,8 @@ def url_scan(url):
 
     # Results page takes about 30 seconds to complete / Added in loading bar for visual bliss
     print(f'Scanning {url}...')
-    for i in tqdm(range(10)):
-        time.sleep(3)
+    for i in tqdm(range(100)):
+        time.sleep(.3)
 
     results_request = requests.get(api_results)
     results_response = results_request.json()
